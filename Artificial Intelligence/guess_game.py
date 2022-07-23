@@ -6,5 +6,7 @@ for i in range(3):
     if guess == x:
         print('You won!')
         break
+    else:
+        print('Try guessing again.')
 if guess != x:
-    print('Try again!')
+    print('Better luck next time!')
