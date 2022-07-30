@@ -1,6 +1,7 @@
 import random
 arr = []
 total_sum = 0
+count = 0
 greater_than_40 = []
 sum_greater_than_40 = 0
 
@@ -14,6 +15,7 @@ for i in range(100):
         greater_than_40.append(arr[i])
         sum_greater_than_40 += arr[i]
     total_sum += arr[i]
+    count += 1
     print(arr[i])
 
 #figure out maximum and minimum values in a list of random numbers
@@ -26,7 +28,7 @@ for i in range(100):
         minimum = arr[i]
 
 print(f'Sum of 100 random numbers is: {total_sum}')
-print(f'Average of 100 random numbers is: {total_sum/100}')
+print(f'Average of 100 random numbers is: {total_sum/count}')
 print(f'Maximum value out of 100 random values is: {maximum}')
 print(f'Minimum value out of 100 random values is: {minimum}')
 print(f'Numbers greater than 40: {len(greater_than_40)}')
