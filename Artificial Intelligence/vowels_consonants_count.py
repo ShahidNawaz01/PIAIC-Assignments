@@ -5,7 +5,7 @@ count = 0
 
 for char in stat.lower():
     if char in vowels_list:
-            vowels_count += 1
+        vowels_count += 1
     if char != '.' and char != ' ':
         count += 1
 consonants = count - vowels_count
