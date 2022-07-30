@@ -23,3 +23,5 @@ This program inputs a statement from a user and counts number of vowels and cons
 This program inputs a number from a user and prints a reverse pyramid pattern.
 9. **[Each Character Count](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/all_characters_repetition.py)**
 This program inputs a statement from a user and individually counts each character repeated in that statement.
+10. **[Palindrome Check](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/palindrome_check.py)**
+This program inputs a string/number from a user and checks where it is palindrome or not.
