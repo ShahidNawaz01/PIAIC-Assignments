@@ -17,5 +17,7 @@ This program generates a random integer between 1 & 10 and then asks user to gue
 This program identifies common elements among two given lists and stores them in a separate array.
 6. **[Character Count](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/character_repetition.py)**
 This program inputs a statement from a user and counts how many times a particular character is repeated in that text.
-6. **[Vowels and Consonants Count](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/vowels_consonants_count.py)**
+7. **[Vowels and Consonants Count](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/vowels_consonants_count.py)**
 This program inputs a statement from a user and counts number of vowels and consonants in that statement.
+8. **[Reverse Pyramid Printing](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/reverse_pyramid.py)**
+This program inputs a number from a user and prints a reverse pyramid pattern.
