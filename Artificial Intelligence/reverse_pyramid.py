@@ -1,10 +1,10 @@
-number = int(input('Enter any number b/w 1 to 10: '))
+number = int(input('Enter any number: '))
 
 for x in range(1,number+1):
     y = 1
     output = ''
     while y <= number:
-        output += str(y)
+        output += str(y) + ' '
         y += 1
     print(output)
     number -= 1
