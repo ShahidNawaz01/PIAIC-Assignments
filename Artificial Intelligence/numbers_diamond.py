@@ -1,4 +1,4 @@
-number = int(input('Enter any number b/w 1 to 10: '))
+number = int(input('Enter any number: '))
 pattern_def = number
 half_pattern_def = number
 

@@ -1,4 +1,4 @@
-stat = input('Please your statement: ')
+stat = input('Please enter your statement: ')
 vowels_list = ['a', 'e', 'i', 'o', 'u']
 vowels_count = 0
 count = 0
