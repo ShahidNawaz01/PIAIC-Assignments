@@ -29,3 +29,6 @@ This program inputs a statement from a user and individually counts each charact
 This program inputs a string/number from a user and checks where it is palindrome or not.
 11. **[Diamond Shape Pattern Printing](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/numbers_diamond.py)**
 This program inputs a number from a user and prints diamond shape pattern.
+### Assignment - 4 (Dated: 13-August-2022)
+12. **[Student Data](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/student_data.py)**
+This program asks student their name, email address, age and courses he/she wants to enroll and saves the data in a dictionary.
