@@ -1,4 +1,4 @@
-# storing each character in a string and getting the output
+# storing each character of a string into a list and apply the reverse function
 string = input('Enter a string: ')
 str_list = list(string)
 str_list.reverse()
@@ -14,3 +14,6 @@ def rev_str(string):
     else:
         return rev_str(string[1:]) + string[0]
 print(rev_str(string))
+
+# Using Python function
+print(string[::-1])
