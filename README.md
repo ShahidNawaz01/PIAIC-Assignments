@@ -34,7 +34,7 @@ This program inputs a number from a user and prints diamond shape pattern.
 This program asks student their name, email address, age and courses he/she wants to enroll and saves the data in a dictionary.
 ### Assignment - 6 (Dated: 03-September-2022)
 13. **[Reverse String](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/reverse_string.py)**
-This program prompts user a string and reverses it.
+This program prompts user a string and reverses it using three different ways.
 14. **[Matrix Multiplication](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/matrix_multiplication.py)**
 This program prompts user two matrices and then multiplies it.
 15. **[Exception Handling](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/exception_handling.py)**
