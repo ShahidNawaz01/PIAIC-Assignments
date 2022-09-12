@@ -6,8 +6,6 @@ available_courses = {
     5: 'Web3.0 and Metaverse Developer'
 }
 
-students = list()
-
 
 class StudentData:
     def __init__(self, name, age, email):
@@ -40,25 +38,25 @@ def add_courses():
     return selected_courses
 
 
-def add_data():
+def add_data(students_list):
     name = input("Enter student's name: ")
     age = input("Enter student's age: ")
     email = input("Enter student's email: ")
     student_object = StudentData(name, age, email)
     selected_courses = add_courses()
     student_object.courses = selected_courses
-    students.append(student_object)
-    return students
+    students_list.append(student_object)
+    return students_list
 
 
-def data_entry(user_input):
+def data_entry(user_input, students_list):
     count = False
     while count is False:
         if user_input == 1:
-            add_data()
+            students_list = add_data(students_list)
             count = True
         elif user_input == 2:
-            display_data(students)
+            display_data(students_list)
             count = True
         elif user_input == 3:
             print('Quiting the program.')
@@ -80,9 +78,10 @@ def available_options():
 
 def main():
     user_input = 0
+    students_list = list()
     while user_input != 3:
         user_input = available_options()
-        data_entry(user_input)
+        data_entry(user_input, students_list)
 
 
 if __name__ == '__main__':
