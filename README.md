@@ -32,10 +32,13 @@ This program inputs a number from a user and prints diamond shape pattern.
 ### Assignment - 4 (Dated: 13-August-2022)
 12. **[Student Data](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/student_data.py)**
 This program asks student their name, email address, age and courses he/she wants to enroll and saves the data in a dictionary.
+### Assignment - 5 (Dated: 20-August-2022)
+13. **[Student Records](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/student_records.py)**
+This program asks student their name, email address, age and courses he/she wants to enroll and saves the courses in a student class.
 ### Assignment - 6 (Dated: 03-September-2022)
-13. **[Reverse String](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/reverse_string.py)**
+14. **[Reverse String](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/reverse_string.py)**
 This program prompts user a string and reverses it using three different ways.
-14. **[Matrix Multiplication](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/matrix_multiplication.py)**
+15. **[Matrix Multiplication](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/matrix_multiplication.py)**
 This program prompts user two matrices and then multiplies it.
-15. **[Exception Handling](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/exception_handling.py)**
+16. **[Exception Handling](https://github.com/ShahidNawaz01/PIAIC-Assignments/blob/main/Artificial%20Intelligence/exception_handling.py)**
 This program forces user to enter a number (using try/exception command).
