@@ -25,7 +25,7 @@ def display_data(students_list):
         print("Courses Enrolled in: ", data.courses)
 
 
-def add_courses(student_object):
+def add_courses():
     print('Available courses are: ')
     for course in available_courses:
         print(f"{course}. {available_courses[course]}")
@@ -37,9 +37,7 @@ def add_courses(student_object):
         x = input('Do you want to select any other course? (Y/N) ')
         if x.lower() != 'y':
             break
-    student_object.courses = selected_courses
-    students.append(student_object)
-    return students
+    return selected_courses
 
 
 def add_data():
@@ -47,7 +45,10 @@ def add_data():
     age = input("Enter student's age: ")
     email = input("Enter student's email: ")
     student_object = StudentData(name, age, email)
-    add_courses(student_object)
+    selected_courses = add_courses()
+    student_object.courses = selected_courses
+    students.append(student_object)
+    return students
 
 
 def data_entry(user_input):
